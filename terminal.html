@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOOTCTS - Terminal</title>
+  <link rel="icon" href="nootcts.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header-wrapper">
+    <header>
+      <h1>NOOTCTS Terminal</h1>
+      <a href="https://t.me/NOOTB_BOT" class="create-post-btn" target="_blank">
+        <i class="fab fa-telegram-plane"></i> Создать пост
+      </a>
+    </header>
+
+    <div class="tabs">
+      <a class="tab-button" href="nootcts.html" data-tab="posts">NOOTCTS</a>
+      <a class="tab-button active" href="terminal.html" data-tab="terminal">Terminal</a>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="tab-content" id="posts-tab">
+      <main id="posts-container"></main>
+    </div>
+
+    <div class="tab-content active" id="terminal-tab">
+      <main id="terminal-posts-container"></main>
+    </div>
+  </div>
+
+  <footer>
+    <p>© NOOTCTS 2025 - 2026 | <a href="https://t.me/NOOT3546" target="_blank">@NOOT3546</a></p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
